@@ -2,11 +2,6 @@
 let navbar = document.querySelector(".header .navbar");
 let navbtn = document.querySelector(".menu-btn");
 
-// function openmenu() {
-//   navbar.classList.toggle("show");
-//   navbtn.classList.toggle("active");
-// }
-
 console.log("Working");
 
 document.querySelector(".menu-btn").onclick = () => {
