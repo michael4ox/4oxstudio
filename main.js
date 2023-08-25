@@ -1,8 +1,8 @@
 // Header NavBar
-let navbar = document.querySelector(".header .navbar");
-let navbtn = document.querySelector(".menu-btn");
+let navbar = document.querySelectorAll(".header .navbar");
+let navbtn = document.querySelectorAll(".menu-btn");
 
-document.querySelector(".menu-btn").onclick = () => {
+document.querySelectorAll(".menu-btn").onclick = () => {
   navbar.classList.toggle("show");
   navbtn.classList.toggle("active");
 };
