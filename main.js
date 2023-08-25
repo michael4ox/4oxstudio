@@ -7,6 +7,8 @@ function openmenu() {
   navbtn.classList.toggle("active");
 }
 
+console.log("Working");
+
 // document.getElementsByClassName(".menu-btn").onclick = () => {
 //   navbar.classList.toggle("show");
 //   navbtn.classList.toggle("active");
