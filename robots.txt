@@ -1,6 +1,5 @@
 User-agent: Googlebot
-Disallow: /clients/
-Disallow: /not-for-google
+Allow: /clients/
 User-agent: *
 Disallow: /archive/
 Disallow: /support/
