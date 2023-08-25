@@ -1,6 +1,6 @@
 // Header NavBar
-let navbar = document.getElementsByClassName(".header .navbar");
-let navbtn = document.getElementsByClassName(".menu-btn");
+let navbar = document.querySelector(".header .navbar");
+let navbtn = document.querySelector(".menu-btn");
 
 function openmenu() {
   navbar.classList.toggle("show");
@@ -9,10 +9,10 @@ function openmenu() {
 
 console.log("Working");
 
-// document.getElementsByClassName(".menu-btn").onclick = () => {
-//   navbar.classList.toggle("show");
-//   navbtn.classList.toggle("active");
-// };
+document.querySelector(".menu-btn").onclick = () => {
+  navbar.classList.toggle("show");
+  navbtn.classList.toggle("active");
+};
 
 window.onscroll = () => {
   navbar.classList.remove("show");
