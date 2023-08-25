@@ -2,10 +2,15 @@
 let navbar = document.getElementsByClassName(".header .navbar");
 let navbtn = document.getElementsByClassName(".menu-btn");
 
-document.getElementsByClassName(".menu-btn").onclick = () => {
+function openmenu() {
   navbar.classList.toggle("show");
   navbtn.classList.toggle("active");
-};
+}
+
+// document.getElementsByClassName(".menu-btn").onclick = () => {
+//   navbar.classList.toggle("show");
+//   navbtn.classList.toggle("active");
+// };
 
 window.onscroll = () => {
   navbar.classList.remove("show");
