@@ -98,7 +98,7 @@ body {
   padding-bottom: 10vw;
   padding-left: 5%;
   margin: 0;
-  font-size: 2vw;
+  font-size: 40px;
 }
 
 span {
@@ -873,6 +873,10 @@ textarea {
     display: none;
   }
 
+  .msg p {
+    font-size: 25px;
+  }
+
   .show {
     position: absolute;
     top: 99%;
@@ -1008,6 +1012,10 @@ textarea {
   .abt-image img {
     width: 18.7rem;
     padding: 5px;
+  }
+
+  .msg p {
+    font-size: 15px;
   }
 
   .ours {
