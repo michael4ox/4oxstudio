@@ -1,5 +1,8 @@
 * {
-  font-family: Cochin, Georgia, Times, "Times New Roman", serif, sans-serif;
+  font-family: Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen,
+    "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande",
+    Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -260,12 +263,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem !important;
+  margin-top: 2rem !important;
 }
 
 .back-home {
   color: var(--second-color);
-  font-size: 0.9rem;
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 
 .header-title {
@@ -274,6 +278,7 @@ header {
   color: var(--bg-color);
   text-align: center;
   margin-bottom: 1rem;
+  font-family: Geologica, Ubuntu, Jost;
 }
 
 .header-img {
@@ -293,10 +298,11 @@ header {
 }
 
 .post-text {
-  font-size: 1.2rem;
-  line-height: 1.9rem;
+  font-size: 20px;
+  line-height: 1.5;
   margin: 1rem;
   text-align: justify;
+  word-break: break-word;
 }
 
 /* Footer................... */
@@ -431,7 +437,7 @@ header {
   }
 
   .header-content {
-    margin-top: 3rem !important;
+    margin-top: 1rem !important;
   }
 
   .home {
@@ -460,12 +466,22 @@ header {
 }
 
 @media (max-width: 570px) {
+  .back-home {
+    color: var(--second-color);
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
   .post-header {
     height: 390px;
   }
 
+  .post-text {
+    font-size: 19px;
+  }
+
   .header-title {
-    width: 100%;
+    font-size: 27px;
   }
 
   .header-img {
@@ -507,9 +523,7 @@ header {
   }
 
   .post-text {
-    font-size: 0.87rem;
-    line-height: 1.5rem;
-    margin: 10px 0;
+    font-size: 18px;
   }
 
   .login {
@@ -523,7 +537,8 @@ header {
   }
 
   .logo {
-    width: 30px !important;
+    margin-bottom: 25px;
+    font-size: 22px;
   }
 
   .nav {
