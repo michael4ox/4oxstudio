@@ -957,7 +957,7 @@ textarea {
 
 @media (max-width: 375px) {
   .whytext h3 {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 
   .menu-btn {
@@ -967,6 +967,7 @@ textarea {
     font-size: 8px;
     box-shadow: 0 2px 5px #e4e4e4;
     cursor: pointer;
+    font-size: 15px;
   }
 
   .header {
@@ -974,7 +975,7 @@ textarea {
   }
 
   .whytext p {
-    font-size: 0.7rem;
+    font-size: 15px;
     margin-bottom: 10px;
     line-height: 12px;
   }
@@ -1013,7 +1014,7 @@ textarea {
   }
 
   .msg p {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .ours {
